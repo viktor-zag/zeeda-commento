@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Commento from '../../components/Commento';
+import Commento from '../../components/Commento.js';
 
 const Product = () => {
   const router = useRouter();

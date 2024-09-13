@@ -18,7 +18,7 @@ const Commento = ({ pageId }) => {
     };
   }, [pageId]);
 
-  return <div id="commento" />;
+  // return <div id="commento" />;
 };
 
 Commento.propTypes = {
