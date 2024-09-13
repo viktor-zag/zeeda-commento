@@ -8,10 +8,10 @@ const Commento = ({ pageId }) => {
     script.async = true;
     script.setAttribute('data-page-id', pageId);
     script.setAttribute('data-no-fonts', 'true'); // Optional attribute
-    script.setAttribute(
-      'data-css-override',
-      'https://zeeda-commento.vercel.app/style.css'
-    );
+    // script.setAttribute(
+    //   'data-css-override',
+    //   'https://zeeda-commento.vercel.app/style.css'
+    // );
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);

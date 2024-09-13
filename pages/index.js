@@ -34,7 +34,6 @@ const Home = () => {
 
   return (
     <div>
-      <h3>Here</h3>
       <iframe
         ref={iframeRef}
         src={"https://zeeda-commento.vercel.app/product/" + productId}
