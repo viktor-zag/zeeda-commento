@@ -2,6 +2,6 @@
 
 export default function handler(req, res) {
   // console.log(req);
-  console.log("here");
-  res.status(200).json({ name: "Jhon Doe" });
+  const data = req.query;
+  res.status(200).json({ name: "temp", data: data });
 }
