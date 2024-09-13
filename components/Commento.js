@@ -13,9 +13,9 @@ const Commento = ({ pageId }) => {
     //   'https://zeeda-commento.vercel.app/style.css'
     // );
     document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
+    // return () => {
+    //   document.body.removeChild(script);
+    // };
   }, [pageId]);
 
   return <div id="commento" />;
